@@ -32,9 +32,9 @@ int main(void)
     for( i = 0; i< file_size; i++)
     {
        fread(&value, 1, 1, fd);
-       if( value == '7') seven_count++; 
+       if( value == '3') seven_count++; 
     }
     fclose(fd);
-    printf("Number of '7' characters found in %s = %d\n", filename, seven_count);
+    printf("Number of '3' characters found in %s = %d\n", filename, seven_count);
     exit(0);
 }
