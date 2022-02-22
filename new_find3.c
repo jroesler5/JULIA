@@ -9,7 +9,7 @@
 int main(void)
 {
     FILE *fd;
-    const char *filename = {"list.txt"};
+    const char *filename = {"lambeau.jpg"};
     int i, file_size;
     int seven_count = 0;
     unsigned char value;
